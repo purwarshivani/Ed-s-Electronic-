@@ -1,0 +1,1499 @@
+<!DOCTYPE html>
+<!-- saved from url=(0146)https://nile.northampton.ac.uk/webapps/assessment/take/launch.jsp?course_assessment_id=_25877_1&course_id=_85724_1&content_id=_4876795_1&step=null -->
+<html lang="en-GB-18" class="gr__nile_northampton_ac_uk"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Blackboard Learn</title>
+  
+  <meta id="request-method" name="request-method" content="GET">
+  <meta name="author" content="Blackboard">
+  <meta name="copyright" content="© 1997-2019 Blackboard Inc. All Rights Reserved. US Patent No. 7,493,396 and 7,558,853. Additional Patents Pending.">
+  <meta name="keywords" content="Blackboard">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+<script type="text/javascript" src="./Blackboard Learn_files/e99ceaa32b"></script><script src="./Blackboard Learn_files/nr-1099.min.js.download"></script><script type="text/javascript" async="" src="./Blackboard Learn_files/ga.js.download"></script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+  <link rel="SHORTCUT ICON" type="image/x-icon" href="https://nile.northampton.ac.uk/ui/bb-icon2.ico">
+     <link rel="stylesheet" type="text/css" href="./Blackboard Learn_files/shared.css" id="css_0">
+     <link rel="stylesheet" type="text/css" href="./Blackboard Learn_files/theme.css" id="css_1">
+     <link rel="stylesheet" type="text/css" href="./Blackboard Learn_files/app_nav.css" id="css_2">
+     <link rel="stylesheet" type="text/css" href="./Blackboard Learn_files/assessment.css" id="css_3">
+     <link rel="stylesheet" type="text/css" href="./Blackboard Learn_files/assessment(1).css" id="css_4">
+     <link rel="stylesheet" type="text/css" href="./Blackboard Learn_files/opt_in_lightbox.css" id="css_5">
+          <style>
+    BODY.bbDefault {
+    FONT-SIZE: 0.9em
+    }
+    BODY.bbDefault TD {
+    FONT-SIZE: 0.9em
+    }
+  </style>
+  
+      <style type="text/css" id="courseMenuCustomCSS">
+
+.noteditmode .listCm .courseMenu a:hover span, 
+.noteditmode .listCm .courseMenu a:focus span {
+	color:#02434f!important;
+}
+
+
+#courseMenuPalette div.navPaletteContent ul li a,
+#courseMenuPalette h3 a,
+#previewCourseMenu h3 a,
+.navPaletteContent h3 a.submenuLink:before,
+.navPaletteContent h3 a.submenuLink_active:before,
+#courseMenuPalette div.navPaletteContent ul li a span,
+#courseMenuPalette .navPaletteContent .subhead
+{
+  color: #02434f;
+  text-shadow: none;
+}
+
+#courseMenuPalette ul.courseMenu li.divider hr
+{
+  background-color: #02434f;
+}
+
+#courseMenuPalette ul.courseMenu li h4
+{
+  color: #02434f;
+}
+
+#courseMenuPalette h4.treehead
+{
+  color: #02434f;
+}
+
+#courseMenuPalette div.navPaletteContent
+{
+  background-color: #FFFFCC;
+}
+
+/*Active course menu view bubble stem*/
+#courseMenuPalette .actionBarMicro .active > a:after {
+ 	border-bottom-color: #FFFFCC;
+}
+
+
+</style>
+      <style type="text/css">.topGlobalLinks a.home{background-image:url(/images/console/icons/home_0.gif)}.bottom-buttons-home a{background-image:url(/images/console/icons/home_0.gif);background-repeat:no-repeat;background-position:50% 0}.topGlobalLinks a.help{background-image:url(/images/console/icons/help_0.gif)}.bottom-buttons-help a{background-image:url(/images/console/icons/help_0.gif);background-repeat:no-repeat;background-position:50% 0}.topGlobalLinks a.logout{background-image:url(/images/console/icons/logout_0.gif)}.global-nav-bar .logout-link,.global-nav-bar .logout-link:hover,.global-nav-bar .logout-link:focus{background-image:url(/images/console/icons/logout_0.gif);background-repeat:no-repeat;background-position:50% 0}</style>
+       <link rel="stylesheet" type="text/css" media="print" href="./Blackboard Learn_files/print.css">
+    <script type="text/javascript" src="./Blackboard Learn_files/i18n.js.download"></script>
+      <script language="javascript" type="text/javascript">
+
+var JS_RESOURCES = new Object();
+
+function _init_bundle_JS_RESOURCES() {
+
+    JS_RESOURCES['validation.email'] = 'A fully qualified email address (for example, info@blackboard.com) must be entered.';
+    JS_RESOURCES['validation.radio.required'] = 'Make a selection to continue.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited.survey'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the survey. Click OK to save the incomplete answer.';
+    JS_RESOURCES['common.list.separator.comma'] = '{0}, {1}';
+    JS_RESOURCES['active.filter.search.terms'] = 'Search Terms';
+    JS_RESOURCES['validation.maximum_length.plural'] = 'Must not contain more than {1} characters: {0}.\nReduce the size of the input by {2} characters.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the test. Click OK to save the incomplete answer.';
+    JS_RESOURCES['validation.multiSelect.minItems'] = 'Multiselect box should contain at least {0} number of items.';
+    JS_RESOURCES['validation.cmp_field.required'] = 'A value must be provided for {0}\nwhen {1} field is not empty';
+    JS_RESOURCES['warning.email'] = 'Email address is a recommended field. Users will be unable to use parts of the system without an email address.';
+    JS_RESOURCES['validation.maximum_length.no_name.singular'] = 'Must not contain more than {0} characters.\nReduce the size of the input by one character.';
+    JS_RESOURCES['validation.multiSelect.maxItems'] = 'Multiselect box should not contain more than {0} number of items.';
+    JS_RESOURCES['validation.number'] = 'A valid numeric value must be entered: {0}.';
+    JS_RESOURCES['portalmodule.section.remove'] = 'Delete: {0}?';
+    JS_RESOURCES['show.helptext'] = 'Show Help Text';
+    JS_RESOURCES['validation.date.required'] = 'A complete date value must be provided: {0}.';
+    JS_RESOURCES['validation.password'] = 'Password cannot be empty or contain only spaces.';
+    JS_RESOURCES['validation.mismatch'] = 'The values entered do not match: {0}.\nConfirm: {0}.';
+    JS_RESOURCES['validation.percent'] = 'A valid per-cent value between 0 and 100 must be entered.';
+    JS_RESOURCES['validation.maximum_length.no_name.plural'] = 'Must not contain more than {0} characters.\nReduce the size of the input by {1} characters.';
+    JS_RESOURCES['field_name.substitute'] = '\'\'{0}\'\' input field';
+    JS_RESOURCES['validation.invalid_value'] = 'Invalid numeric value provided: {0}.';
+    JS_RESOURCES['validation.required'] = 'A value must be provided: {0}.';
+    JS_RESOURCES['validate.alignment.missing.content'] = 'You selected alignments, but did not select any alignable content to copy.';
+    JS_RESOURCES['active.filter.free.form.text.blank'] = 'Specify a value for the search text field';
+    JS_RESOURCES['validation.system_role.reserve'] = '"bb" is not permitted at the beginning of a role ID.';
+    JS_RESOURCES['validation.date_past'] = 'The end date cannot be earlier than the start date.';
+    JS_RESOURCES['confirm.delete_item_value'] = 'This item {0} will be deleted. Continue?';
+    JS_RESOURCES['validation.invalid_chars'] = 'Contains illegal characters: {0}.\nDelete these characters: {1}';
+    JS_RESOURCES['hide.helptext'] = 'Hide Help Text';
+    JS_RESOURCES['validate.range.lessthen.str'] = 'Less Than {0}';
+    JS_RESOURCES['validate.login.invalid.username.or.pass'] = 'Enter a username and password.';
+    JS_RESOURCES['validation.date_past.confirm'] = 'The time is in the past.\nContinue with this time?';
+    JS_RESOURCES['validation.negative'] = 'A valid non-negative value must be entered: {0}.';
+    JS_RESOURCES['validation.url'] = 'A valid URL (for example, http://www.myuniversity.ac.uk) must be entered.';
+    JS_RESOURCES['validate.range.overlap'] = 'criteria ({0}) overlaps criteria ({1}).';
+    JS_RESOURCES['validate.range.between.str'] = 'Between {0} and {1}';
+    JS_RESOURCES['validation.portal.tool.items.remove'] = 'Delete: {0}?';
+    JS_RESOURCES['validation.association.refresh.confirm'] = 'The associated items information might have been updated.\nClick \'OK\' to refresh the list or click \'Cancel\' to keep the current page.';
+    JS_RESOURCES['validate.enrolloptions.error.codeconflict'] = 'The Access Code Enrolment option conflicts with the selection of {instructor} Led enrolment.';
+    JS_RESOURCES['list.checkToSelectAllItems'] = 'Tick to select all items';
+    JS_RESOURCES['validation.option.required'] = 'At least one option must be selected from the list.';
+    JS_RESOURCES['active.filter.changed.alert'] = 'criteria now contain';
+    JS_RESOURCES['vtbe.artifact.footer.validate.nameIfSaveArtifact'] = 'Specify a Name in order to Save as a Reusable Object.';
+    JS_RESOURCES['validate.invalidate.number'] = 'Please input valid number instead of {0}.';
+    JS_RESOURCES['validation.valid_course_id'] = 'Site ID contains illegal characters or multibyte characters.';
+    JS_RESOURCES['assessment.incomplete.confirm'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the test. Click OK to submit assessment.';
+    JS_RESOURCES['validate.enrolloptions.error.nooption'] = 'Warning: Choose either the {instructor} Led or the Self-Enrolment option.';
+    JS_RESOURCES['validation.date_equal'] = 'The start date cannot be equal to the end date.';
+    JS_RESOURCES['validation.cmp_field.rejected'] = 'The {0} cannot be used without a corresponding {1} value.';
+    JS_RESOURCES['validation.time.required'] = 'A complete time value must be provided: {0}.';
+    JS_RESOURCES['validation.integer_number'] = 'A valid integer numeric value must be entered: {0}.';
+    JS_RESOURCES['validation.maximum_length'] = 'Must not contain more than 255 characters';
+    JS_RESOURCES['validate.enrolloptions.error.emailrequestconflict'] = 'The selected email enrolment option conflicts with the self-enrolment selection.';
+    JS_RESOURCES['validate.range.morethen.str'] = 'More Than {0}';
+    JS_RESOURCES['invalid_char.space'] = 'space';
+    JS_RESOURCES['notification.submit'] = 'Action already submitted.\nWait until the action is complete.';
+    JS_RESOURCES['validation.plain_text.confirm'] = 'To display equations correctly in this document, Smart Text or HTML format must be selected.\nClick \'OK\' to save in selected Plain Text format or click \'Cancel\' to select a new format.';
+    JS_RESOURCES['validation.allow_negtive.percent'] = 'A valid per-cent value between -100 and 100 must be entered.';
+    JS_RESOURCES['invalid_char.comma'] = 'comma';
+    JS_RESOURCES['confirm.remove_item'] = 'This action is final and cannot be undone. Continue?';
+    JS_RESOURCES['list.uncheckToDeselectAllItems'] = 'Untick to deselect all items';
+    JS_RESOURCES['validation.maximum_length.singular'] = 'Must not contain more than {1} characters: {0}.\nReduce the size of the input by one character.';
+    JS_RESOURCES['vtbe.artifact.footer.validate.saveLocationIfSaveArtifact'] = 'Specify a location for the Reusable Object.';
+    JS_RESOURCES['validation.minimum_length'] = 'A minimum of {0} characters must be entered: {1}.';
+    JS_RESOURCES['assessment.incomplete.confirm.survey'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the survey. Click OK to submit assessment.';
+    JS_RESOURCES['validation.image_type'] = 'Unknown image type: {0}. Image may not display correctly.';
+    JS_RESOURCES['validate.invalidate.number.space'] = 'Space';
+
+    JS_RESOURCES.getString = i18n_get_string;
+    JS_RESOURCES.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_JS_RESOURCES();
+
+</script>
+<script language="javascript" type="text/javascript">
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'dd/MM/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^([0-9]{1,3}(\\,[0-9]{3})*(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'MON TUE WED THU FRI SAT SUN';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\,[0-9]{3})*)|[-]?[0-9]*)(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\.[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'd MMM[ yyyy]{\'&#8212;\'d MMM, yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'January February March April May June July August September October November December';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_NAME.03169'] = 'ARIAL.TTF';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Welcome, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Jan Feb  Mar Apr  May Jun Jul Aug Sep Oct Nov Dec';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_SIZE.03168'] = '8';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd d/M';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'DMY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'MON TUE WED THU FRI SAT SUN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_PATH.03170'] = 'C:/WINNT/Fonts';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '1';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, d MMM, yyyy';
+    LOCALE_SETTINGS['number_format.decimal_point'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Monday Tuesday Wednesday Thursday Friday Saturday Sunday';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'DD/MM/YY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd d/M';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+      <script language="javascript" type="text/javascript">
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'dd/MM/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^([0-9]{1,3}(\\,[0-9]{3})*(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'MON TUE WED THU FRI SAT SUN';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\,[0-9]{3})*)|[-]?[0-9]*)(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\.[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'd MMM[ yyyy]{\'&#8212;\'d MMM, yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'January February March April May June July August September October November December';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_NAME.03169'] = 'ARIAL.TTF';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Welcome, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Jan Feb  Mar Apr  May Jun Jul Aug Sep Oct Nov Dec';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_SIZE.03168'] = '8';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd d/M';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'DMY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'MON TUE WED THU FRI SAT SUN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_PATH.03170'] = 'C:/WINNT/Fonts';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '1';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, d MMM, yyyy';
+    LOCALE_SETTINGS['number_format.decimal_point'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Monday Tuesday Wednesday Thursday Friday Saturday Sunday';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'DD/MM/YY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd d/M';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+         <script type="text/javascript" src="./Blackboard Learn_files/cdn.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/34048C95CFE348DA126451CC6950A60A.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/UserDataDWRFacade.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/MashupDWRFacade.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/mathImg.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/titlebartagutils.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/engine.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/assessment.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/widget.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/CourseMenuDWRFacade.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/UserPageInstructionsSettingDWRFacade.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/engine.js(1).download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/breadcrumbs.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/tree.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/coursemenu.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/util.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/424C6C34B341DF007C4818D3A91099F0.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/UserDWRFacade.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/mybb.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/welcomeOverlay.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/profile_access.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/41FDAE89440BEF3D44EEB663B5F31528.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/cloud_session.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/ToolActivityService.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/tool_service.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/social.js.download"></script>
+    <script type="text/javascript" src="./Blackboard Learn_files/ProfileProviderService.js.download"></script>
+    </head>
+  <body id="testid" data-gr-c-s-loaded="true" style="">
+  
+<h1 class="hideoff hideFromQuickLinks">Open Quick Links</h1><div id="quick_links_wrap" style="top: 96px;"><a id="quick_links_lightbox_link" href="https://nile.northampton.ac.uk/webapps/assessment/take/launch.jsp?course_assessment_id=_25877_1&amp;course_id=_85724_1&amp;content_id=_4876795_1&amp;step=null#" onclick="quickLinks.lightboxHelper.toggleLightbox(); return false;" role="button" aria-haspopup="true" tabindex="1" title="Open Quick Links">Quick Links</a></div><div id="quickLinksLightboxDiv" class="hideoff" aria-hidden="true" style="display:none"><div class="ax-content"><div class="content-lite"><div id="quick_links_landmarks_section"><h2 class="hideFromQuickLinks">Page Landmarks</h2><ul class="shortcut-list" id="quick_links_landmark_list"></ul></div><div id="quick_links_headings_section"><h2 class="hideFromQuickLinks">Content Outline</h2><ul class="shortcut-list" id="quick_links_heading_list"></ul></div></div><div id="quick_links_hotkeys_section" class="legend"><h2 class="hideFromQuickLinks">Keyboard Shortcuts</h2><ul class="keycombos" id="quick_links_hotkey_list"></ul></div></div></div><h1 class="hideoff hideFromQuickLinks"></h1><div class="global-nav-bar-wrap"><div class="global-nav-bar-wrap-mobile-nav"><button class="hamburger hamburger--squeeze" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button></div><div class="global-nav-bar logout"><a id="topframe.logout.label" href="https://nile.northampton.ac.uk/webapps/login/?action=logout" target="_top" class="nav-link logout-link" title="Logout"> Logout</a></div><div id="global-nav" class="global-nav-bar" role="navigation" data-preview="false"><div id="hotSpots" class="hotItems hotSpots u_floatThis-left"><span class="funZone"><iframe src="./Blackboard Learn_files/tb1.html" frameborder="0" width="151" height="16" allowtransparency="true"></iframe></span></div><div class="hideoff">Global Menu</div><a id="global-nav-link" class="nav-link u_floatThis-right" href="https://nile.northampton.ac.uk/webapps/assessment/take/launch.jsp?course_assessment_id=_25877_1&amp;course_id=_85724_1&amp;content_id=_4876795_1&amp;step=null#global-nav-flyout" aria-haspopup="true" tabindex="1" accesskey="m" role="navigation" title="Open Global Navigation menu"><img src="./Blackboard Learn_files/avatar_150.gif" alt="" id="global-avatar" datatooltitle="User Avatar Image" class="global-top-avatar"> Shivani Purwar<span id="badgeTotal" style="visibility: visible;" title=""><span class="hideoff" id="badgeAXLabel">Activity Updates</span><span class="badge" id="badgeTotalCount" title="">3</span></span><img src="./Blackboard Learn_files/arrowDown-topnav.png" alt="Expand Global Nav" id="global-toggle-img" class="global-toggle"></a><div id="global-nav-flyout" class="flyout-menu" style="display: none;" role="application"><ul id="bottomButtons" class="bottom-buttons"><li class="bottom-buttons-home"><a id="topframe.home.label" href="http://www.northampton.ac.uk/" target="_blank" class="home" title="Home" role="menuitem"> Home</a></li><li class="bottom-buttons-help"><a id="topframe.help.label" href="https://nile.northampton.ac.uk/webapps/assessment/take/launch.jsp?course_assessment_id=_25877_1&amp;course_id=_85724_1&amp;content_id=_4876795_1&amp;step=null#" onclick="globalNavigation.openHelpWindow(&#39;https://nile.northampton.ac.uk/webapps/portal/frameset.jsp?tab_tab_group_id=_209_1&#39;);" class="help" title="Help" role="menuitem"> Help</a></li></ul></div></div></div>
+<!-- global_nav.jsp -->
+
+<div id="globalNavPageNavArea">
+    <table class="bouncer" summary="Top frame table" role="presentation">
+      <tbody><tr>
+        <td>
+          <div class="topTabs bgBanner" id="topTabs">
+  
+            <div class="brandingImgWrap">
+              <a href="https://www.northampton.ac.uk/" target="_blank" title="The University of Northampton Home Page">
+                <img src="./Blackboard Learn_files/IconUON.png" alt="The University of Northampton Home Page" title="The University of Northampton Home Page" class="bannerImage">
+</a>
+            </div>
+  
+            <div class="tabWrapper-right">
+              <h2 class="hideoff" id="anonymous_element_1">Top Frame Tabs</h2>
+              <table class="appTabs transparent" id="appTabList" summary="Tab List table" role="presentation">
+                <tbody><tr>
+                 <td id="Home">
+                      <a href="https://nile.northampton.ac.uk/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_3_1" target="_top"><span>Home</span>
+                        <span class="hideoff"> Tab 1 of 3</span>
+                      </a>
+                    </td>
+                  <td id="Sites &amp; Organisations">
+                      <a href="https://nile.northampton.ac.uk/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_418_1" target="_top"><span>Sites &amp; Organisations</span>
+                        <span class="hideoff"> Tab 2 of 3</span>
+                      </a>
+                    </td>
+                  <td id="Help">
+                      <a href="https://nile.northampton.ac.uk/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_562_1" target="_top"><span>Help</span>
+                        <span class="hideoff"> Tab 3 of 3</span>
+                      </a>
+                    </td>
+                  </tr>
+              </tbody></table>
+              <div class="clearfloats"></div>
+            </div>
+            </div>
+        </td>
+      </tr>
+    </tbody></table>
+  </div>
+
+<div id="globalNavPageContentArea" style="height: 491px; overflow: visible;">
+
+<h2 class="hideoff" id="anonymous_element_2">
+ Current Location
+</h2>
+
+<div id="breadcrumbs" class="breadcrumbs clearfix ">
+ <div class="breadcrumb-controls clearfix" id="breadcrumb_controls_id">
+
+
+
+
+
+<div id="helpTextToggle" class="helpLink">
+  <a href="https://nile.northampton.ac.uk/webapps/assessment/take/launch.jsp?course_assessment_id=_25877_1&amp;course_id=_85724_1&amp;content_id=_4876795_1&amp;step=null#" id="helpTextToggleLink" class="browseIcon" title="Help is On: Click to hide page help." style="display: inline-block;">
+	<img id="helpTextToggleImg" src="./Blackboard Learn_files/small_help_on2.gif" alt="Help is On: Click to hide page help."></a>
+</div>
+ <input type="hidden" name="showHelperSetting" id="showHelperSetting" value="true">
+ </div>
+
+ <div class="path  noToggle" role="navigation" id="anonymous_element_14">
+ <ol class="clearfix">
+    	<li class="root coursePath"> <a href="https://nile.northampton.ac.uk/webapps/blackboard/execute/courseMain?course_id=_85724_1" title="18/19 Databases 2 (NAMI) (CSY2038-NAM09)">                  18/19 Databases 2 (NAMI) (CSY2038-NAM09)
+              </a>      <div id="arrowContext_1" class="courseArrow" onclick="page.ContextMenu.changeArrowInBreadcrumb(1, event );">
+<span class="contextMenuContainer" style=" display: inline;" bb:menugeneratorurl="/webapps/blackboard/execute/getCrossCourseMenuHTML?course_id=_85724_1" bb:navitem="" bb:contextparameters="" bb:menuorder="" bb:overwritenavitems="" bb:beforeshowfunc="">
+   
+  <a id="cmlink_a4e065e509f94fe6adfce8208e2d51cd" onfocus="page.ContextMenu.LI(event, &#39;cmdiv_a4e065e509f94fe6adfce8208e2d51cd&#39;,false);" onmouseover="page.ContextMenu.LI(event, &#39;cmdiv_a4e065e509f94fe6adfce8208e2d51cd&#39;,false);" class="cmimg editmode jsInit" href="https://nile.northampton.ac.uk/webapps/assessment/take/launch.jsp?course_assessment_id=_25877_1&amp;course_id=_85724_1&amp;content_id=_4876795_1&amp;step=null#contextMenu" title="Site-to-Course Navigation"> <img src="./Blackboard Learn_files/cmlink_generic.gif" alt="Site-to-Course Navigation" onload="page.ContextMenu.LI(event, &#39;cmdiv_a4e065e509f94fe6adfce8208e2d51cd&#39;,false);"></a>
+  
+</span>
+</div>    </li>
+   	<li> <a href="https://nile.northampton.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_85724_1&amp;content_id=_4502027_1&amp;mode=reset" title="Module activities">                  Module activities
+              </a>          </li>
+   	<li class="placeholder">                   Take Test: Topic 2 - Review
+                        </li>
+  </ol>
+ </div>
+
+</div>
+
+<div class="locationPane">
+ <nav role="navigation" aria-label="Course Menu" id="navigationPane" class="navigationPane " style="height: 2867px;">
+ 
+
+ <div id="menuWrap" class="menuWrap">
+  <div id="puller">
+  <a id="menuPuller" class="clickpuller" title="Hide Site Menu" href="https://nile.northampton.ac.uk/webapps/assessment/take/launch.jsp?course_assessment_id=_25877_1&amp;course_id=_85724_1&amp;content_id=_4876795_1&amp;step=null#">
+   <img id="expander" alt="Hide Site Menu" src="./Blackboard Learn_files/spacer.gif">
+  </a>
+ </div>
+<div class="menuWrap-inner">
+  <input type="hidden" name="blackboard.platform.security.NonceUtil.nonce" value="8144c9a0-b66f-4c4d-9eaf-b96225d2311c"><div id="courseMenuPalette" class="navPalette listCm navPaletteExpCol"><div class="actionBarMicro clearfix"><h2 class="hideoff" id="anonymous_element_3">Menu Management Options</h2><ul class="nav clearfix u_floatThis-right"><li id="refreshMenuLink" class="secondaryButton "><a href="https://nile.northampton.ac.uk/webapps/assessment/take/launch.jsp?course_assessment_id=_25877_1&amp;course_id=_85724_1&amp;content_id=_4876795_1&amp;step=null#" title="Refresh"><span><img src="./Blackboard Learn_files/small_refresh.gif" alt="Refresh"></span></a></li><li id="courseMapButton" class="secondaryButton "><a href="https://nile.northampton.ac.uk/webapps/assessment/take/launch.jsp?course_assessment_id=_25877_1&amp;course_id=_85724_1&amp;content_id=_4876795_1&amp;step=null#" title="Display Site Menu in a Window"><span><img src="./Blackboard Learn_files/small_new_window.gif" alt="Display Site Menu in a Window"></span></a></li></ul></div><div class="navPaletteContent"><h2 class="hideoff" tabindex="-1" id="anonymous_element_4">Site Menu:</h2><div id="courseMenuPalette_paletteTitleHeading"><div class="navPaletteTitle"><h3 aria-expanded="true" id="anonymous_element_5"><a href="https://nile.northampton.ac.uk/webapps/assessment/take/launch.jsp?course_assessment_id=_25877_1&amp;course_id=_85724_1&amp;content_id=_4876795_1&amp;step=null#" class="comboLink" title="Collapse 18/19 Databases 2 (NAMI) (CSY2038-NAM09)" id="courseMenu_link">18/19 Databases 2 (NAMI) (CSY2038-NAM09)</a></h3><h3 id="anonymous_element_6"><a href="https://nile.northampton.ac.uk/webapps/blackboard/execute/courseMain?course_id=_85724_1" target="" class="submenuLink" id="courseMenu_combo" title="Go to Site Entry Page"><img src="./Blackboard Learn_files/generic_dbl_arrow_right.gif" alt="Site Entry Page"></a></h3></div></div><ul id="courseMenuPalette_contents" class="courseMenu"><li id="paletteItem:_2187688_1" class="clearfix divider"><hr></li><li id="paletteItem:_2187669_1" class="clearfix "><a href="https://nile.northampton.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_85724_1&amp;content_id=_4502028_1&amp;mode=reset" target="_self"><span title="About this module">About this module</span></a></li><li id="paletteItem:_2187689_1" class="clearfix divider"><hr></li><li id="paletteItem:_2187690_1" class="clearfix subhead"><h3 id="anonymous_element_7"><span title="Communications">Communications</span></h3></li><li id="paletteItem:_2187691_1" class="clearfix "><a href="https://nile.northampton.ac.uk/webapps/blackboard/content/launchLink.jsp?course_id=_85724_1&amp;tool_id=_108_1&amp;tool_type=TOOL&amp;mode=view&amp;mode=reset" target="_self"><span title="Announcements">Announcements</span></a></li><li id="paletteItem:_2187670_1" class="clearfix "><a href="https://nile.northampton.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_85724_1&amp;content_id=_4502024_1&amp;mode=reset" target="_self"><span title="Contacts">Contacts</span></a></li><li id="paletteItem:_2187692_1" class="clearfix divider"><hr></li><li id="paletteItem:_2187693_1" class="clearfix subhead"><h3 id="anonymous_element_8"><span title="Module Content">Module Content</span></h3></li><li id="paletteItem:_2187671_1" class="clearfix "><a href="https://nile.northampton.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_85724_1&amp;content_id=_4502027_1&amp;mode=reset" target="_self"><span title="Module activities">Module activities</span></a></li><li id="paletteItem:_2187672_1" class="clearfix "><a href="https://nile.northampton.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_85724_1&amp;content_id=_4502025_1&amp;mode=reset" target="_self"><span title="Reading and resources">Reading and resources</span></a></li><li id="paletteItem:_2187694_1" class="clearfix divider"><hr></li><li id="paletteItem:_2187695_1" class="clearfix subhead"><h3 id="anonymous_element_9"><span title="Assessment">Assessment</span></h3></li><li id="paletteItem:_2187673_1" class="clearfix "><a href="https://nile.northampton.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_85724_1&amp;content_id=_4502030_1&amp;mode=reset" target="_self"><span title="Assessment information">Assessment information</span></a></li><li id="paletteItem:_2187674_1" class="clearfix "><a href="https://nile.northampton.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_85724_1&amp;content_id=_4502022_1&amp;mode=reset" target="_self"><span title="Submit your work">Submit your work</span></a></li><li id="paletteItem:_2187675_1" class="clearfix "><a href="https://nile.northampton.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_85724_1&amp;content_id=_4502023_1&amp;mode=reset" target="_self"><span title="Feedback and grades">Feedback and grades</span></a></li><li id="paletteItem:_2187696_1" class="clearfix divider"><hr></li><li id="paletteItem:_2187697_1" class="clearfix "><a href="https://northampton.rl.talis.com/lists/847556F2-A78A-B60E-35D1-64BAD1F7D7D5.html" target="_blank"><span title="Support for students">Support for students</span></a></li></ul></div></div>
+  </div>
+ </div>
+ </nav>
+ <div id="contentPanel" class="contentPane  " style="height: 2867px;">
+<div class="shadow">
+       <div id="editmodeWrapper"> 
+ 
+  <div id="content" class="contentBox ">
+   
+<div id="pageTitleDiv" class="pageTitle clearfix ">
+
+  
+<div id="pageTitleBar" class="pageTitleIcon" tabindex="0">
+  <img src="./Blackboard Learn_files/test_on.svg" alt="" id="titleicon"><h1 id="pageTitleHeader" tabindex="-1"><span id="pageTitleText">
+  Take Test: Topic 2 - Review  </span></h1>
+        <span id="_titlebarExtraContent" class="titleButtons"></span>
+</div>
+
+
+
+</div>
+
+      <div class="container clearfix" id="containerdiv" style="padding-bottom: 77px;">
+    <h2 class="hideoff" id="anonymous_element_10">Content</h2>
+    <script type="text/javascript" src="./Blackboard Learn_files/achievement.js.download"></script><script src="./Blackboard Learn_files/version_pinned_scriptaculous.js.download"></script><script type="text/javascript" src="./Blackboard Learn_files/builder.js.download"></script><script type="text/javascript" src="./Blackboard Learn_files/effects.js.download"></script><script type="text/javascript" src="./Blackboard Learn_files/dragdrop.js.download"></script><script type="text/javascript" src="./Blackboard Learn_files/controls.js.download"></script><link rel="stylesheet" href="./Blackboard Learn_files/achievements.css" type="text/css" media="screen"><script type="text/javascript">
+new Ajax.Request('/webapps/achievements/checkAchievements.form', {
+method:'get',
+asynchronous:true,
+parameters: {courseId: '_85724_1', type: 1 },
+onSuccess: function(response) {
+var jsonArray = response.responseJSON;
+handleAchievements(jsonArray);
+},
+onFailure: function() { alert('Something went wrong...'); }
+});
+</script><form name="saveAttemptForm" id="bb-take-assessment" method="post" action="https://nile.northampton.ac.uk/webapps/assessment/do/take/saveAttempt" enctype="multipart/form-data" onsubmit="return false;" style="margin: 0px;">  <input type="hidden" name="blackboard.platform.security.NonceUtil.nonce.ajax" id="blackboard.platform.security.NonceUtil.nonce.ajax" value="4074c43b-5a7c-4248-95b7-98d238b9d9b6">
+
+
+ 
+  <input type="hidden" name="data-submitted" id="data-submitted" value="true">
+
+
+ 
+  <input type="hidden" name="course_assessment_id" id="course_assessment_id" value="_25877_1">
+
+
+ 
+  <input type="hidden" name="course_id" id="course_id" value="_85724_1">
+
+
+ 
+  <input type="hidden" name="content_id" id="content_id" value="_4876795_1">
+
+
+ 
+  <input type="hidden" name="step" id="step" value="">
+
+
+ 
+  <input type="hidden" name="original_user_id" id="original_user_id" value="_253161_1">
+
+
+ 
+  <input type="hidden" name="save_and_submit" id="save_and_submit" value="">
+
+
+ 
+  <input type="hidden" name="timer_completion" id="timer_completion" value="">
+
+
+ 
+  <input type="hidden" name="fileUploadType" id="fileUploadType" value="">
+
+
+ 
+
+<a href="https://nile.northampton.ac.uk/webapps/assessment/accessibility.jsp" target="_blank" class="hideoff">Assistive Technology Tips [opens in new window]</a>
+<div id="instructionBlock" class="infoListWrapper">
+  <h3 aria-expanded="true" id="anonymous_element_11"><a id="instructionsExpander_925474_1_7827522_1" class="open" href="https://nile.northampton.ac.uk/webapps/assessment/take/launch.jsp?course_assessment_id=_25877_1&amp;course_id=_85724_1&amp;content_id=_4876795_1&amp;step=null#" title="Hide"><img alt="" class="hideoff" src="./Blackboard Learn_files/spacer.gif"> Test Information</a></h3>
+  <div id="instructionsContainer_925474_1_7827522_1" style="zoom: 1;">
+    <h3 class="hideoff" id="anonymous_element_12">Instructions</h3>
+    <table class="key-valueTable" summary="" role="presentation">
+        
+<tbody><tr valign="top">
+  <th scope="row" class="u_normalAlign"><span class="label">Description</span></th>
+  <td>
+
+
+<div class="vtbegenerated"><p>Once submitted you will be given your score but not be shown the correct answers.&nbsp;<br>This is because learning is more effective when it is <em><strong>active</strong></em>, rather than <em><span style="color: #c0c0c0;">passive</span></em>.&nbsp; To determin the correct answer you will have to look it up in the lectures slides or your practical activites and apply it.</p></div>
+
+  </td>
+</tr>
+
+<tr valign="top">
+  <th scope="row" class="u_normalAlign"><span class="label">Instructions</span></th>
+  <td>
+
+
+  </td>
+</tr>
+
+<tr valign="top">
+  <th scope="row" class="u_normalAlign"><span class="label">Multiple Attempts</span></th>
+  <td>
+
+This Test allows multiple attempts.
+  </td>
+</tr>
+
+<tr valign="top">
+  <th scope="row" class="u_normalAlign"><span class="label">Force Completion</span></th>
+  <td>
+
+This Test can be saved and resumed later.
+  </td>
+</tr>
+</tbody></table>
+    </div><!-- end div#instructionsContainer -->
+</div><!-- end div#infoListWrapper -->
+
+   <!-- portlet -->
+   <!-- The position:fixed style is required here so that the status bar may be re-positioned by setting style.top no matter which theme is chosen.-->
+<div class="assessmentPortlet" id="topbar" style="visibility: visible; left: 10px; top: 0px; width: 1057px;">
+
+<!-- begin portletBlock -->
+  <div class="liveArea timer">
+
+    <div class="questionStatus">
+			
+  <input type="hidden" name="toggle_state" id="toggle_state" value="qShow">
+
+
+ 
+<h3 class="questionStatusLabel" id="anonymous_element_13">
+       <button type="button" class="abutton" onclick="toggleElement(&#39;statusBlock&#39;); return false;">
+	    <img src="./Blackboard Learn_files/more_options_dark.gif" alt="Expand" title="Expand" id="statusBlockimg">
+			 Question Completion Status:</button></h3>
+
+       
+<div class="qShow" id="statusBlock" style="display: none;">
+<div class="completionContainer">
+<button type="button" class="abutton" onclick="return assessment.inlineJumpTo(&#39;question_1&#39;);">
+            <span class="qComplete" id="span_1">1<img id="img_1" src="./Blackboard Learn_files/file_li.gif" width="10" height="10" align="middle" border="0" alt="Question Complete">
+            </span>
+       </button>
+<button type="button" class="abutton" onclick="return assessment.inlineJumpTo(&#39;question_2&#39;);">
+            <span class="qComplete" id="span_2">2<img id="img_2" src="./Blackboard Learn_files/file_li.gif" width="10" height="10" align="middle" border="0" alt="Question Complete">
+            </span>
+       </button>
+<button type="button" class="abutton" onclick="return assessment.inlineJumpTo(&#39;question_3&#39;);">
+            <span class="qComplete" id="span_3">3<img id="img_3" src="./Blackboard Learn_files/file_li.gif" width="10" height="10" align="middle" border="0" alt="Question Complete">
+            </span>
+       </button>
+<button type="button" class="abutton" onclick="return assessment.inlineJumpTo(&#39;question_4&#39;);">
+            <span class="qComplete" id="span_4">4<img id="img_4" src="./Blackboard Learn_files/file_li.gif" width="10" height="10" align="middle" border="0" alt="Question Complete">
+            </span>
+       </button>
+<button type="button" class="abutton" onclick="return assessment.inlineJumpTo(&#39;question_5&#39;);">
+            <span class="qComplete" id="span_5">5<img id="img_5" src="./Blackboard Learn_files/file_li.gif" width="10" height="10" align="middle" border="0" alt="Question Complete">
+            </span>
+       </button>
+<button type="button" class="abutton" onclick="return assessment.inlineJumpTo(&#39;question_6&#39;);">
+            <span class="qComplete" id="span_6">6<img id="img_6" src="./Blackboard Learn_files/file_li.gif" width="10" height="10" align="middle" border="0" alt="Question Complete">
+            </span>
+       </button>
+<button type="button" class="abutton" onclick="return assessment.inlineJumpTo(&#39;question_7&#39;);">
+            <span class="qComplete" id="span_7">7<img id="img_7" src="./Blackboard Learn_files/file_li.gif" width="10" height="10" align="middle" border="0" alt="Question Complete">
+            </span>
+       </button>
+<button type="button" class="abutton" onclick="return assessment.inlineJumpTo(&#39;question_8&#39;);">
+            <span class="qComplete" id="span_8">8<img id="img_8" src="./Blackboard Learn_files/file_li.gif" width="10" height="10" align="middle" border="0" alt="Question Complete">
+            </span>
+       </button>
+</div>
+</div>
+
+
+
+
+</div> <!-- /.questionStatus -->
+
+  </div> <!-- /.timer -->
+</div>
+
+  <!-- assessment_js.jspf -->
+
+<div id="dataCollectionContainer" style="position: relative; top: 53px;">
+<div class="submitStepTop">
+</div>
+
+     <div id="_7827524_1" class="takeQuestionDiv " style="position:relative;">
+       <h3 id="steptitle1" class="steptitle">
+            Question 1
+      </h3>     <div id="stepcontent1" class="  stepcontent  ">
+   <ol role="presentation">
+     
+   
+     
+
+<li>
+
+
+<div class="field">
+
+  
+ <a class="hidden" href="https://nile.northampton.ac.uk/webapps/assessment/take/launch.jsp?course_assessment_id=_25877_1&amp;course_id=_85724_1&amp;content_id=_4876795_1&amp;step=null#" onclick="return false;" id="question_1">&nbsp;</a><fieldset><legend class="legend-visible"><div class="vtbegenerated inlineVtbegenerated"><p><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">The OID is a hidden reference column that is used to process object tables.&nbsp; What does OID stand for?</span></p></div></legend>
+<script type="text/javascript">
+            formCheckList.addElement(new Check_Answer({ref_label:"1",name:"mc-ans-_7827524_1"}));
+  </script>
+  <table>
+    
+    <tbody><tr>
+        <td valign="top">
+            <input id="mc-ans-_7827524_1_0" type="radio" value="0" name="mc-ans-_7827524_1">
+    
+</td>
+        <td valign="top">
+          </td>
+        <td valign="top">
+          
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_7827524_1_0"><p><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Object Item Definition</span></p></label></div>
+</td>
+      </tr>
+      <tr>
+        <td valign="top">
+            <input id="mc-ans-_7827524_1_1" type="radio" value="1" name="mc-ans-_7827524_1">
+    
+</td>
+        <td valign="top">
+          </td>
+        <td valign="top">
+          
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_7827524_1_1"><p><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Open Identifier</span></p></label></div>
+</td>
+      </tr>
+      <tr>
+        <td valign="top">
+            <input id="mc-ans-_7827524_1_2" type="radio" value="2" name="mc-ans-_7827524_1">
+    
+</td>
+        <td valign="top">
+          </td>
+        <td valign="top">
+          
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_7827524_1_2"><p><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Object Identifier</span></p></label></div>
+</td>
+      </tr>
+      <tr>
+        <td valign="top">
+            <input id="mc-ans-_7827524_1_3" type="radio" value="3" name="mc-ans-_7827524_1">
+    
+</td>
+        <td valign="top">
+          </td>
+        <td valign="top">
+          
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_7827524_1_3"><p><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Obscure Internal Department</span></p></label></div>
+</td>
+      </tr>
+      </tbody></table>
+
+
+</fieldset>
+    <span class="fieldErrorText"></span>
+  
+</div>
+</li> 
+   </ol>
+  </div>
+  
+  <span class="stepTitleRight liveArea"><p class="taskbuttondiv">1 points &nbsp; <input class="button-4 answerSavedButton" type="button" id="saveButton_1" onclick="javascript:saveOneItem(&#39;_7827524_1&#39;,&#39;1&#39;, true, true)" title="Save Answer for Question 1" value="Saved"></p></span>
+  </div><div id="_7827525_1" class="takeQuestionDiv " style="position:relative;">
+       <h3 id="steptitle2" class="steptitle">
+            Question 2
+      </h3>     <div id="stepcontent2" class="  stepcontent  ">
+   <ol role="presentation">
+     
+   
+     
+
+<li>
+
+
+<div class="field">
+
+  
+ <a class="hidden" href="https://nile.northampton.ac.uk/webapps/assessment/take/launch.jsp?course_assessment_id=_25877_1&amp;course_id=_85724_1&amp;content_id=_4876795_1&amp;step=null#" onclick="return false;" id="question_2">&nbsp;</a><fieldset><legend class="legend-visible"><div class="vtbegenerated inlineVtbegenerated"><p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: normal; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">Write the syntax to create an object table called&nbsp;<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: inherit; font-family: inherit; font-size: 13px;">people&nbsp;</strong>using&nbsp;<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: inherit; font-family: inherit; font-size: 13px;">people_type</strong></p>  <p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: normal; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><label class="hideoff" for="fib_plus-variable-x1-id_7827525_1">Blank 1</label><input type="text" name="fib_plus-variable-x1-_7827525_1" id="fib_plus-variable-x1-id_7827525_1" title="For Blank 1" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"2", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x1-_7827525_1"}</span> ) );</script> <label class="hideoff" for="fib_plus-variable-x2-id_7827525_1">Blank 2</label><input type="text" name="fib_plus-variable-x2-_7827525_1" id="fib_plus-variable-x2-id_7827525_1" title="For Blank 2" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"2", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x2-_7827525_1"}</span> ) );</script> <label class="hideoff" for="fib_plus-variable-x3-id_7827525_1">Blank 3</label><input type="text" name="fib_plus-variable-x3-_7827525_1" id="fib_plus-variable-x3-id_7827525_1" title="For Blank 3" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"2", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x3-_7827525_1"}</span> ) );</script> <label class="hideoff" for="fib_plus-variable-x4-id_7827525_1">Blank 4</label><input type="text" name="fib_plus-variable-x4-_7827525_1" id="fib_plus-variable-x4-id_7827525_1" title="For Blank 4" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"2", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x4-_7827525_1"}</span> ) );</script> <label class="hideoff" for="fib_plus-variable-x5-id_7827525_1">Blank 5</label><input type="text" name="fib_plus-variable-x5-_7827525_1" id="fib_plus-variable-x5-id_7827525_1" title="For Blank 5" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"2", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x5-_7827525_1"}</span> ) );</script>;</p>  <br></div></legend>
+
+</fieldset>
+    <span class="fieldErrorText"></span>
+  
+</div>
+</li> 
+   </ol>
+  </div>
+  
+  <span class="stepTitleRight liveArea"><p class="taskbuttondiv">3 points &nbsp; <input class="button-4 answerSavedButton" type="button" id="saveButton_2" onclick="javascript:saveOneItem(&#39;_7827525_1&#39;,&#39;2&#39;, true, true)" title="Save Answer for Question 2" value="Saved"></p></span>
+  </div><div id="_7827526_1" class="takeQuestionDiv " style="position:relative;">
+       <h3 id="steptitle3" class="steptitle">
+            Question 3
+      </h3>     <div id="stepcontent3" class="  stepcontent  ">
+   <ol role="presentation">
+     
+   
+     
+
+<li>
+
+
+<div class="field">
+
+  
+ <a class="hidden" href="https://nile.northampton.ac.uk/webapps/assessment/take/launch.jsp?course_assessment_id=_25877_1&amp;course_id=_85724_1&amp;content_id=_4876795_1&amp;step=null#" onclick="return false;" id="question_3">&nbsp;</a><fieldset><legend class="legend-visible"><div class="vtbegenerated inlineVtbegenerated"><p><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Write the syntax to create a relational table called&nbsp;</span><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">staff</strong><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">&nbsp;that references an object table called&nbsp;</span><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">people</strong><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">&nbsp;that was created using an&nbsp;</span><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">people_type</strong><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">.</span></p>  <table border="1" style="cursor: default; margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; border-collapse: separate; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">   <tbody style="margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; font-size: 13px;">    <tr style="margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; font-size: 13px;">     <td style="color: #000000; font-family: inherit; font-size: 13px; margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; text-align: left; cursor: text;">Relational Table Name</td>     <td style="color: #000000; font-family: inherit; font-size: 13px; margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; text-align: left; cursor: text;">staff</td>    </tr>    <tr style="margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; font-size: 13px;">     <td style="color: #000000; font-family: inherit; font-size: 13px; margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; text-align: left; cursor: text;">attribute</td>     <td style="color: #000000; font-family: inherit; font-size: 13px; margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; text-align: left; cursor: text;">staff_id</td>    </tr>    <tr style="margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; font-size: 13px;">     <td style="color: #000000; font-family: inherit; font-size: 13px; margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; text-align: left; cursor: text;">attribute</td>     <td style="color: #000000; font-family: inherit; font-size: 13px; margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; text-align: left; cursor: text;">department</td>    </tr>    <tr style="margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; font-size: 13px;">     <td style="color: #000000; font-family: inherit; font-size: 13px; margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; text-align: left; cursor: text;">attribute</td>     <td style="color: #000000; font-family: inherit; font-size: 13px; margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; text-align: left; cursor: text;">person</td>    </tr>   </tbody>  </table>  <p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: normal; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"></p>  <p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: normal; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"></p>  <p style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; font-weight: normal; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: small; color: #111111; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;"><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: inherit; font-family: inherit; font-size: 13px;"><label class="hideoff" for="fib_plus-variable-x1-id_7827526_1">Blank 1</label><input type="text" name="fib_plus-variable-x1-_7827526_1" id="fib_plus-variable-x1-id_7827526_1" title="For Blank 1" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"3", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x1-_7827526_1"}</span> ) );</script></strong>&nbsp;<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: inherit; font-family: inherit; font-size: 13px;"><label class="hideoff" for="fib_plus-variable-x2-id_7827526_1">Blank 2</label><input type="text" name="fib_plus-variable-x2-_7827526_1" id="fib_plus-variable-x2-id_7827526_1" title="For Blank 2" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"3", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x2-_7827526_1"}</span> ) );</script></strong>&nbsp;<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: inherit; font-family: inherit; font-size: 13px;"><label class="hideoff" for="fib_plus-variable-x3-id_7827526_1">Blank 3</label><input type="text" name="fib_plus-variable-x3-_7827526_1" id="fib_plus-variable-x3-id_7827526_1" title="For Blank 3" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"3", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x3-_7827526_1"}</span> ) );</script></strong>&nbsp;<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: inherit; font-family: inherit; font-size: 13px;"><label class="hideoff" for="fib_plus-variable-x4-id_7827526_1">Blank 4</label><input type="text" name="fib_plus-variable-x4-_7827526_1" id="fib_plus-variable-x4-id_7827526_1" title="For Blank 4" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"3", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x4-_7827526_1"}</span> ) );</script></strong></p>  <p style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; font-weight: normal; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: small; color: #111111; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;"><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: inherit; font-family: inherit; font-size: 13px;"><label class="hideoff" for="fib_plus-variable-x5-id_7827526_1">Blank 5</label><input type="text" name="fib_plus-variable-x5-_7827526_1" id="fib_plus-variable-x5-id_7827526_1" title="For Blank 5" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"3", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x5-_7827526_1"}</span> ) );</script></strong>&nbsp;<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: inherit; font-family: inherit; font-size: 13px;"><label class="hideoff" for="fib_plus-variable-x6-id_7827526_1">Blank 6</label><input type="text" name="fib_plus-variable-x6-_7827526_1" id="fib_plus-variable-x6-id_7827526_1" title="For Blank 6" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"3", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x6-_7827526_1"}</span> ) );</script></strong>&nbsp;,</p>  <p style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; font-weight: normal; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: small; color: #111111; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;"><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: inherit; font-family: inherit; font-size: 13px;"><label class="hideoff" for="fib_plus-variable-x7-id_7827526_1">Blank 7</label><input type="text" name="fib_plus-variable-x7-_7827526_1" id="fib_plus-variable-x7-id_7827526_1" title="For Blank 7" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"3", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x7-_7827526_1"}</span> ) );</script></strong>&nbsp;<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: inherit; font-family: inherit; font-size: 13px;"><label class="hideoff" for="fib_plus-variable-x8-id_7827526_1">Blank 8</label><input type="text" name="fib_plus-variable-x8-_7827526_1" id="fib_plus-variable-x8-id_7827526_1" title="For Blank 8" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"3", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x8-_7827526_1"}</span> ) );</script></strong>&nbsp;,</p>  <p style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; font-weight: normal; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: small; color: #111111; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;"><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: inherit; font-family: inherit; font-size: 13px;"><label class="hideoff" for="fib_plus-variable-x9-id_7827526_1">Blank 9</label><input type="text" name="fib_plus-variable-x9-_7827526_1" id="fib_plus-variable-x9-id_7827526_1" title="For Blank 9" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"3", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x9-_7827526_1"}</span> ) );</script></strong>&nbsp;<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: inherit; font-family: inherit; font-size: 13px;"><label class="hideoff" for="fib_plus-variable-x10-id_7827526_1">Blank 10</label><input type="text" name="fib_plus-variable-x10-_7827526_1" id="fib_plus-variable-x10-id_7827526_1" title="For Blank 10" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"3", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x10-_7827526_1"}</span> ) );</script></strong>&nbsp;<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: inherit; font-family: inherit; font-size: 13px;"><label class="hideoff" for="fib_plus-variable-x11-id_7827526_1">Blank 11</label><input type="text" name="fib_plus-variable-x11-_7827526_1" id="fib_plus-variable-x11-id_7827526_1" title="For Blank 11" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"3", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x11-_7827526_1"}</span> ) );</script></strong>&nbsp;<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: inherit; font-family: inherit; font-size: 13px;"><label class="hideoff" for="fib_plus-variable-x12-id_7827526_1">Blank 12</label><input type="text" name="fib_plus-variable-x12-_7827526_1" id="fib_plus-variable-x12-id_7827526_1" title="For Blank 12" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"3", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x12-_7827526_1"}</span> ) );</script></strong>&nbsp;<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: inherit; font-family: inherit; font-size: 13px;"><label class="hideoff" for="fib_plus-variable-x13-id_7827526_1">Blank 13</label><input type="text" name="fib_plus-variable-x13-_7827526_1" id="fib_plus-variable-x13-id_7827526_1" title="For Blank 13" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"3", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x13-_7827526_1"}</span> ) );</script></strong>&nbsp;<strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: inherit; font-family: inherit; font-size: 13px;"><label class="hideoff" for="fib_plus-variable-x14-id_7827526_1">Blank 14</label><input type="text" name="fib_plus-variable-x14-_7827526_1" id="fib_plus-variable-x14-id_7827526_1" title="For Blank 14" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"3", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x14-_7827526_1"}</span> ) );</script></strong>);</p>  <p style="margin: 5px 0px; padding: 0px; border: 0px; outline: 0px; font-weight: normal; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: small; color: #111111; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial;"></p>  <p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: normal; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"></p>  <br></div></legend>
+
+</fieldset>
+    <span class="fieldErrorText"></span>
+  
+</div>
+</li> 
+   </ol>
+  </div>
+  
+  <span class="stepTitleRight liveArea"><p class="taskbuttondiv">5 points &nbsp; <input class="button-4 answerSavedButton" type="button" id="saveButton_3" onclick="javascript:saveOneItem(&#39;_7827526_1&#39;,&#39;3&#39;, true, true)" title="Save Answer for Question 3" value="Saved"></p></span>
+  </div><div id="_7827527_1" class="takeQuestionDiv " style="position:relative;">
+       <h3 id="steptitle4" class="steptitle">
+            Question 4
+      </h3>     <div id="stepcontent4" class="  stepcontent  ">
+   <ol role="presentation">
+     
+   
+     
+
+<li>
+
+
+<div class="field">
+
+  
+ <a class="hidden" href="https://nile.northampton.ac.uk/webapps/assessment/take/launch.jsp?course_assessment_id=_25877_1&amp;course_id=_85724_1&amp;content_id=_4876795_1&amp;step=null#" onclick="return false;" id="question_4">&nbsp;</a><fieldset><legend class="legend-visible"><div class="vtbegenerated inlineVtbegenerated"><p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: normal; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">Create a simple type using the following definition:</p>  <table border="1" style="cursor: default; margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; border-collapse: separate; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">   <tbody style="margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; font-size: 13px;">    <tr style="margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; font-size: 13px;">     <td style="color: #000000; font-family: inherit; font-size: 13px; margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; text-align: left; cursor: text;">name</td>     <td style="color: #000000; font-family: inherit; font-size: 13px; margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; text-align: left; cursor: text;">comms_type</td>    </tr>    <tr style="margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; font-size: 13px;">     <td style="color: #000000; font-family: inherit; font-size: 13px; margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; text-align: left; cursor: text;">attribute&nbsp;</td>     <td style="color: #000000; font-family: inherit; font-size: 13px; margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; text-align: left; cursor: text;">home_email</td>    </tr>    <tr style="margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; font-size: 13px;">     <td style="color: #000000; font-family: inherit; font-size: 13px; margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; text-align: left; cursor: text;">attribute&nbsp;</td>     <td style="color: #000000; font-family: inherit; font-size: 13px; margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; text-align: left; cursor: text;">work_email</td>    </tr>    <tr style="margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; font-size: 13px;">     <td style="color: #000000; font-family: inherit; font-size: 13px; margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; text-align: left; cursor: text;">attribute&nbsp;</td>     <td style="color: #000000; font-family: inherit; font-size: 13px; margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; text-align: left; cursor: text;">twitter</td>    </tr>    <tr style="margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; font-size: 13px;">     <td style="color: #000000; font-family: inherit; font-size: 13px; margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; text-align: left; cursor: text;">attribute&nbsp;</td>     <td style="color: #000000; font-family: inherit; font-size: 13px; margin: 0px; outline: 0px; font-weight: inherit; font-style: inherit; text-align: left; cursor: text;">facebook</td>    </tr>   </tbody>  </table>  <br>  <p><strong> <span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;"><label class="hideoff" for="fib_plus-variable-x1-id_7827527_1">Blank 1</label><input type="text" name="fib_plus-variable-x1-_7827527_1" id="fib_plus-variable-x1-id_7827527_1" title="For Blank 1" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"4", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x1-_7827527_1"}</span> ) );</script>&nbsp; <label class="hideoff" for="fib_plus-variable-x2-id_7827527_1">Blank 2</label><input type="text" name="fib_plus-variable-x2-_7827527_1" id="fib_plus-variable-x2-id_7827527_1" title="For Blank 2" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"4", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x2-_7827527_1"}</span> ) );</script> <label class="hideoff" for="fib_plus-variable-x3-id_7827527_1">Blank 3</label><input type="text" name="fib_plus-variable-x3-_7827527_1" id="fib_plus-variable-x3-id_7827527_1" title="For Blank 3" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"4", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x3-_7827527_1"}</span> ) );</script>&nbsp; <label class="hideoff" for="fib_plus-variable-x4-id_7827527_1">Blank 4</label><input type="text" name="fib_plus-variable-x4-_7827527_1" id="fib_plus-variable-x4-id_7827527_1" title="For Blank 4" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"4", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x4-_7827527_1"}</span> ) );</script> <label class="hideoff" for="fib_plus-variable-x5-id_7827527_1">Blank 5</label><input type="text" name="fib_plus-variable-x5-_7827527_1" id="fib_plus-variable-x5-id_7827527_1" title="For Blank 5" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"4", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x5-_7827527_1"}</span> ) );</script> <label class="hideoff" for="fib_plus-variable-x6-id_7827527_1">Blank 6</label><input type="text" name="fib_plus-variable-x6-_7827527_1" id="fib_plus-variable-x6-id_7827527_1" title="For Blank 6" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"4", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x6-_7827527_1"}</span> ) );</script>&nbsp;</span></strong><br style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><strong><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;"><label class="hideoff" for="fib_plus-variable-x7-id_7827527_1">Blank 7</label><input type="text" name="fib_plus-variable-x7-_7827527_1" id="fib_plus-variable-x7-id_7827527_1" title="For Blank 7" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"4", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x7-_7827527_1"}</span> ) );</script> <label class="hideoff" for="fib_plus-variable-x8-id_7827527_1">Blank 8</label><input type="text" name="fib_plus-variable-x8-_7827527_1" id="fib_plus-variable-x8-id_7827527_1" title="For Blank 8" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"4", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x8-_7827527_1"}</span> ) );</script>,</span></strong><br style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><strong><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;"><label class="hideoff" for="fib_plus-variable-x9-id_7827527_1">Blank 9</label><input type="text" name="fib_plus-variable-x9-_7827527_1" id="fib_plus-variable-x9-id_7827527_1" title="For Blank 9" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"4", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x9-_7827527_1"}</span> ) );</script> <label class="hideoff" for="fib_plus-variable-x10-id_7827527_1">Blank 10</label><input type="text" name="fib_plus-variable-x10-_7827527_1" id="fib_plus-variable-x10-id_7827527_1" title="For Blank 10" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"4", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x10-_7827527_1"}</span> ) );</script>,</span></strong><br style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><strong><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;"><label class="hideoff" for="fib_plus-variable-x11-id_7827527_1">Blank 11</label><input type="text" name="fib_plus-variable-x11-_7827527_1" id="fib_plus-variable-x11-id_7827527_1" title="For Blank 11" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"4", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x11-_7827527_1"}</span> ) );</script> <label class="hideoff" for="fib_plus-variable-x12-id_7827527_1">Blank 12</label><input type="text" name="fib_plus-variable-x12-_7827527_1" id="fib_plus-variable-x12-id_7827527_1" title="For Blank 12" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"4", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x12-_7827527_1"}</span> ) );</script>,</span></strong><br style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><strong><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;"><label class="hideoff" for="fib_plus-variable-x13-id_7827527_1">Blank 13</label><input type="text" name="fib_plus-variable-x13-_7827527_1" id="fib_plus-variable-x13-id_7827527_1" title="For Blank 13" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"4", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x13-_7827527_1"}</span> ) );</script> <label class="hideoff" for="fib_plus-variable-x14-id_7827527_1">Blank 14</label><input type="text" name="fib_plus-variable-x14-_7827527_1" id="fib_plus-variable-x14-id_7827527_1" title="For Blank 14" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"4", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x14-_7827527_1"}</span> ) );</script> <label class="hideoff" for="fib_plus-variable-x15-id_7827527_1">Blank 15</label><input type="text" name="fib_plus-variable-x15-_7827527_1" id="fib_plus-variable-x15-id_7827527_1" title="For Blank 15" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"4", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x15-_7827527_1"}</span> ) );</script></span></strong><br style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><strong><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;"><label class="hideoff" for="fib_plus-variable-x18-id_7827527_1">Blank 16</label><input type="text" name="fib_plus-variable-x18-_7827527_1" id="fib_plus-variable-x18-id_7827527_1" title="For Blank 16" value=""><script type="text/javascript" language="javascript">formCheckList.addElement( new Check_Answer( {ref_label:"4", <span style='word-break:break-all;word-wrap:break-word'>name:"fib_plus-variable-x18-_7827527_1"}</span> ) );</script></span> </strong></p></div></legend>
+
+</fieldset>
+    <span class="fieldErrorText"></span>
+  
+</div>
+</li> 
+   </ol>
+  </div>
+  
+  <span class="stepTitleRight liveArea"><p class="taskbuttondiv">4 points &nbsp; <input class="button-4 answerSavedButton" type="button" id="saveButton_4" onclick="javascript:saveOneItem(&#39;_7827527_1&#39;,&#39;4&#39;, true, true)" title="Save Answer for Question 4" value="Saved"></p></span>
+  </div><div id="_7827528_1" class="takeQuestionDiv " style="position:relative;">
+       <h3 id="steptitle5" class="steptitle">
+            Question 5
+      </h3>     <div id="stepcontent5" class="  stepcontent  ">
+   <ol role="presentation">
+     
+   
+     
+
+<li>
+
+
+<div class="field">
+
+  
+ <a class="hidden" href="https://nile.northampton.ac.uk/webapps/assessment/take/launch.jsp?course_assessment_id=_25877_1&amp;course_id=_85724_1&amp;content_id=_4876795_1&amp;step=null#" onclick="return false;" id="question_5">&nbsp;</a><fieldset><legend class="legend-visible"><div class="vtbegenerated inlineVtbegenerated"><p><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">What do you call a diagram that includes objects?</span></p></div></legend>
+<script type="text/javascript">
+            formCheckList.addElement(new Check_Answer({ref_label:"5",name:"mc-ans-_7827528_1"}));
+  </script>
+  <table>
+    
+    <tbody><tr>
+        <td valign="top">
+            <input id="mc-ans-_7827528_1_0" type="radio" value="0" name="mc-ans-_7827528_1">
+    
+</td>
+        <td valign="top">
+          </td>
+        <td valign="top">
+          
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_7827528_1_0"><p><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Entity Diagram</span></p></label></div>
+</td>
+      </tr>
+      <tr>
+        <td valign="top">
+            <input id="mc-ans-_7827528_1_1" type="radio" value="1" name="mc-ans-_7827528_1">
+    
+</td>
+        <td valign="top">
+          </td>
+        <td valign="top">
+          
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_7827528_1_1"><p><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">DFD</span></p></label></div>
+</td>
+      </tr>
+      <tr>
+        <td valign="top">
+            <input id="mc-ans-_7827528_1_2" type="radio" value="2" name="mc-ans-_7827528_1">
+    
+</td>
+        <td valign="top">
+          </td>
+        <td valign="top">
+          
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_7827528_1_2"><p><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Schema</span></p></label></div>
+</td>
+      </tr>
+      <tr>
+        <td valign="top">
+            <input id="mc-ans-_7827528_1_3" type="radio" value="3" name="mc-ans-_7827528_1">
+    
+</td>
+        <td valign="top">
+          </td>
+        <td valign="top">
+          
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_7827528_1_3"><p><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Class Diagram</span></p></label></div>
+</td>
+      </tr>
+      </tbody></table>
+
+
+</fieldset>
+    <span class="fieldErrorText"></span>
+  
+</div>
+</li> 
+   </ol>
+  </div>
+  
+  <span class="stepTitleRight liveArea"><p class="taskbuttondiv">1 points &nbsp; <input class="button-4 answerSavedButton" type="button" id="saveButton_5" onclick="javascript:saveOneItem(&#39;_7827528_1&#39;,&#39;5&#39;, true, true)" title="Save Answer for Question 5" value="Saved"></p></span>
+  </div><div id="_7827529_1" class="takeQuestionDiv " style="position:relative;">
+       <h3 id="steptitle6" class="steptitle">
+            Question 6
+      </h3>     <div id="stepcontent6" class="  stepcontent  ">
+   <ol role="presentation">
+     
+   
+     
+
+<li>
+
+
+<div class="field">
+
+  
+ <a class="hidden" href="https://nile.northampton.ac.uk/webapps/assessment/take/launch.jsp?course_assessment_id=_25877_1&amp;course_id=_85724_1&amp;content_id=_4876795_1&amp;step=null#" onclick="return false;" id="question_6">&nbsp;</a><fieldset><legend class="legend-visible"><div class="vtbegenerated inlineVtbegenerated"><p><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">What information will be displayed if you query a ref column called address using the traditional style?</span></p></div></legend>
+<script type="text/javascript">
+            formCheckList.addElement(new Check_Answer({ref_label:"6",name:"mc-ans-_7827529_1"}));
+  </script>
+  <table>
+    
+    <tbody><tr>
+        <td valign="top">
+            <input id="mc-ans-_7827529_1_0" type="radio" value="0" name="mc-ans-_7827529_1">
+    
+</td>
+        <td valign="top">
+          </td>
+        <td valign="top">
+          
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_7827529_1_0"><p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: normal; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">street, town, county shown in parenthesis eg:</p>  <p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: normal; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">address('HIGH STREET','BEDFORD','BEDS')</p>  <br></label></div>
+</td>
+      </tr>
+      <tr>
+        <td valign="top">
+            <input id="mc-ans-_7827529_1_1" type="radio" value="1" name="mc-ans-_7827529_1">
+    
+</td>
+        <td valign="top">
+          </td>
+        <td valign="top">
+          
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_7827529_1_1"><p><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">All of the above</span></p></label></div>
+</td>
+      </tr>
+      <tr>
+        <td valign="top">
+            <input id="mc-ans-_7827529_1_2" type="radio" value="2" name="mc-ans-_7827529_1">
+    
+</td>
+        <td valign="top">
+          </td>
+        <td valign="top">
+          
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_7827529_1_2"><p><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">The OID, the hexidecimal reference to the row object eg:</span></p>  <p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: normal; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">ADDRESS</p>  <p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: normal; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">---------------------------------------------------------------</p>  <p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: normal; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">BH4J58DJ93JE09GJEREOU0E9TGKKEJR493</p>  <br></label></div>
+</td>
+      </tr>
+      <tr>
+        <td valign="top">
+            <input id="mc-ans-_7827529_1_3" type="radio" value="3" name="mc-ans-_7827529_1">
+    
+</td>
+        <td valign="top">
+          </td>
+        <td valign="top">
+          
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_7827529_1_3"><p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: #000000; font-weight: normal; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">street, town, county shown in separate columns eg:</p>  <p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: #000000; font-weight: normal; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">ADDRESS</p>  <p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: #000000; font-weight: normal; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">---------------------------------------------------</p>  <p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: #000000; font-weight: normal; font-style: normal; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;">HIGH STREET &nbsp; &nbsp;BEDFORD &nbsp; BEDS</p>  <br></label></div>
+</td>
+      </tr>
+      </tbody></table>
+
+
+</fieldset>
+    <span class="fieldErrorText"></span>
+  
+</div>
+</li> 
+   </ol>
+  </div>
+  
+  <span class="stepTitleRight liveArea"><p class="taskbuttondiv">1 points &nbsp; <input class="button-4 answerSavedButton" type="button" id="saveButton_6" onclick="javascript:saveOneItem(&#39;_7827529_1&#39;,&#39;6&#39;, true, true)" title="Save Answer for Question 6" value="Saved"></p></span>
+  </div><div id="_7827530_1" class="takeQuestionDiv " style="position:relative;">
+       <h3 id="steptitle7" class="steptitle">
+            Question 7
+      </h3>     <div id="stepcontent7" class="  stepcontent  ">
+   <ol role="presentation">
+     
+   
+     
+
+<li>
+
+
+<div class="field">
+
+  
+ <a class="hidden" href="https://nile.northampton.ac.uk/webapps/assessment/take/launch.jsp?course_assessment_id=_25877_1&amp;course_id=_85724_1&amp;content_id=_4876795_1&amp;step=null#" onclick="return false;" id="question_7">&nbsp;</a><fieldset><legend class="legend-visible"><div class="vtbegenerated inlineVtbegenerated"><p><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">What is the additional syntax needed at the end of a object definition?</span></p></div></legend>
+<script type="text/javascript">
+            formCheckList.addElement(new Check_Answer({ref_label:"7",name:"mc-ans-_7827530_1"}));
+  </script>
+  <table>
+    
+    <tbody><tr>
+        <td valign="top">
+            <input id="mc-ans-_7827530_1_0" type="radio" value="0" name="mc-ans-_7827530_1">
+    
+</td>
+        <td valign="top">
+          </td>
+        <td valign="top">
+          
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_7827530_1_0"><p>)</p></label></div>
+</td>
+      </tr>
+      <tr>
+        <td valign="top">
+            <input id="mc-ans-_7827530_1_1" type="radio" value="1" name="mc-ans-_7827530_1">
+    
+</td>
+        <td valign="top">
+          </td>
+        <td valign="top">
+          
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_7827530_1_1"><p>()</p></label></div>
+</td>
+      </tr>
+      <tr>
+        <td valign="top">
+            <input id="mc-ans-_7827530_1_2" type="radio" value="2" name="mc-ans-_7827530_1">
+    
+</td>
+        <td valign="top">
+          </td>
+        <td valign="top">
+          
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_7827530_1_2"><p>;</p></label></div>
+</td>
+      </tr>
+      <tr>
+        <td valign="top">
+            <input id="mc-ans-_7827530_1_3" type="radio" value="3" name="mc-ans-_7827530_1">
+    
+</td>
+        <td valign="top">
+          </td>
+        <td valign="top">
+          
+<div class="vtbegenerated inlineVtbegenerated"><label for="mc-ans-_7827530_1_3"><p>/</p></label></div>
+</td>
+      </tr>
+      </tbody></table>
+
+
+</fieldset>
+    <span class="fieldErrorText"></span>
+  
+</div>
+</li> 
+   </ol>
+  </div>
+  
+  <span class="stepTitleRight liveArea"><p class="taskbuttondiv">1 points &nbsp; <input class="button-4 answerSavedButton" type="button" id="saveButton_7" onclick="javascript:saveOneItem(&#39;_7827530_1&#39;,&#39;7&#39;, true, true)" title="Save Answer for Question 7" value="Saved"></p></span>
+  </div><div id="_7827531_1" class="takeQuestionDiv " style="position:relative;">
+       <h3 id="steptitle8" class="steptitle">
+            Question 8
+      </h3>     <div id="stepcontent8" class="  stepcontent  ">
+   <ol role="presentation">
+     
+   
+     
+
+<li>
+
+
+<div class="field">
+
+  
+ <a class="hidden" href="https://nile.northampton.ac.uk/webapps/assessment/take/launch.jsp?course_assessment_id=_25877_1&amp;course_id=_85724_1&amp;content_id=_4876795_1&amp;step=null#" onclick="return false;" id="question_8">&nbsp;</a><fieldset><legend class="legend-visible"><div class="vtbegenerated inlineVtbegenerated"><p><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">You can&nbsp;</span><span style="text-decoration: underline;"><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: inherit; font-family: inherit; font-size: 13px;">NOT</strong>&nbsp;</span><span style="color: #000000; font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">include ‘or replace’ in a type definition because it stores data and the data would be lost?</span></p></div></legend>
+<p>
+      <input type="radio" name="tf-ans-_7827531_1" id="tf-ans-_7827531_1_1" value="true">
+      <label for="tf-ans-_7827531_1_1">True</label>
+    </p>
+    <p>
+      <input type="radio" name="tf-ans-_7827531_1" id="tf-ans-_7827531_1_2" value="false">
+      <label for="tf-ans-_7827531_1_2">False</label>
+    </p>
+
+</fieldset>
+    <span class="fieldErrorText"></span>
+  
+</div>
+</li> 
+   </ol>
+  </div>
+  
+  <span class="stepTitleRight liveArea"><p class="taskbuttondiv">1 points &nbsp; <input class="button-4 answerSavedButton" type="button" id="saveButton_8" onclick="javascript:saveOneItem(&#39;_7827531_1&#39;,&#39;8&#39;, true, true)" title="Save Answer for Question 8" value="Saved"></p></span>
+  </div>
+ 
+ 		 <div class="submitStepBottom" style="margin-bottom: auto;">
+<h3 id="steptitle9" class="steptitle submittitle">
+ &nbsp;Save and Submit
+</h3>
+<p class="taskbuttonhelp">Click Save and Submit to save and submit. Click Save All Answers to save all answers.</p>
+
+<div class="taskbuttondiv_wrapper">
+<p class="taskbuttondiv" id="bottom_submitButtonRow">
+			<input id="bottom_saveAllAnswersButton" class="button-2" type="button" name="bottom_saveAllAnswersButton" role="button" value="Save All Answers" onclick="return saveAllQuestions(true);">
+		<input class="submit button-1" name="bottom_Save and Submit" type="submit" role="button" value="Save and Submit" onclick="javascript:return assessment.doConfirmSubmit(submitAssessment);">
+
+</p>
+</div>
+
+</div>
+	
+</div>
+  <input type="hidden" name="current_question" id="current_question" value="8">
+
+
+ 
+  <input type="hidden" name="current_attempt_item_id" id="current_attempt_item_id" value="_7827522_1">
+
+
+ 
+  <input type="hidden" name="current_attempt_item_id_backup" id="current_attempt_item_id_backup" value="_7827522_1">
+
+
+ 
+  <input type="hidden" name="method" id="method" value="notajax">
+
+
+ 
+  <input type="hidden" name="saveonequestion" id="saveonequestion" value="true">
+
+
+ 
+
+</form>
+   </div>
+   
+     </div>
+   </div> 
+   </div>
+   </div>  
+</div></div>
+<script type="text/javascript">var resizeIframeListener = window.addEventListener('message', function(e) {
+    try {
+        var postMessageData = e.data;
+        if (postMessageData.messageType === "kms-transcript" && postMessageData.entryId !== undefined) {
+            var items = Array.from(document.querySelectorAll(".liItem"));
+            items.forEach(function(item) {
+                var iframe = item.getElementsByTagName("iframe")[0];
+                if (iframe !== undefined && iframe.getAttribute("src").indexOf(postMessageData.entryId) >= 0) {
+                    iframe.style.height = "800px";
+                    iframe.parentElement.style.height = "800px";
+                }
+            });
+        }
+    }
+    catch(ex) {
+        console.error("encountered error in kms communication", ex);
+    }
+});</script><script type="text/javascript"> if (!Array.prototype.includes) {
+    Object.defineProperty(Array.prototype, 'includes', {
+        value: function(searchElement, fromIndex) {
+            var o = Object(this);
+            var len = o.length >>> 0;
+            if (len === 0) {
+                return false;
+            }
+            var n = fromIndex | 0;
+            var k = Math.max(n >= 0 ? n : len - Math.abs(n), 0);
+
+            function sameValueZero(x, y) {
+                return x === y || (typeof x === 'number' && typeof y === 'number' && isNaN(x) && isNaN(y));
+            }
+
+            while (k < len) {
+                if (sameValueZero(o[k], searchElement)) {
+                    return true;
+                }
+                k++;
+            }
+
+            return false;
+        }
+    });
+}
+
+/** this function IS used. see com/kaltura/bb/util/JspTopFrameStartHookHandler.java:48 **/
+var replaceKalturaIframeTokens = function(contentIdsToReplace, courseId) {
+    var contentItems = Array.prototype.slice.call(document.querySelectorAll('[id^="contentListItem"]'));
+    contentItems = contentItems.filter(function(contentItem) {
+        var contentId = contentItem.id.split(':')[1];
+        return contentIdsToReplace.includes(contentId);
+    });
+
+    contentItems.forEach(function(contentItem) {
+        var contentId = contentItem.id.split(':')[1];
+        var innerIframes = Array.prototype.slice.call(contentItem.querySelectorAll('iframe'));
+        var kalturaIframe = innerIframes.filter(function(iframeElement) {
+            return iframeElement.src.indexOf('osv-kaltura') !== -1;
+        });
+
+        if(kalturaIframe.length !== 1) {
+            return;
+        }
+
+        var kalturaIframeElement = kalturaIframe[0],
+            iframeSrc = kalturaIframeElement.src;
+
+        iframeSrc = iframeSrc
+            .replace('course_id=', 'course_id_old=')
+            .replace('course_id%3D', 'course_id_old%3D')
+            .replace('content_id=', 'content_id_old=')
+            .replace('content_id%3D', 'content_id_old%3D');
+        iframeSrc += '&course_id=' + courseId + '&content_id=' + contentId;
+
+        kalturaIframeElement.src = iframeSrc;
+    });
+};
+
+var addCourseIdIfMissing = function (courseId) {
+    var items = Array.from(document.querySelectorAll("a[href*='viewContent1_Iframe']"));
+    items = items.concat(Array.from(document.querySelectorAll("a[href*='LtiMashupPlayIframeWrapper']")));
+    items = items.concat(Array.from(document.querySelectorAll("iframe[src*='LtiMashupPlayIframeWrapper']")));
+    items.forEach(function(videoLink) {
+        var isIframe = (videoLink.tagName === 'IFRAME'); 
+        var videoHref = isIframe ? videoLink.src : videoLink.href;
+        var hrefParts = videoHref.split('&');
+        var wrongCourseId = null;
+        hrefParts.forEach(function(part){
+           part = part.split('=');
+           if (part.length > 1 && part[0] === 'course_id') {
+               if (part[1] !== courseId) { wrongCourseId = part[1]; }           }
+        });
+        if (wrongCourseId !== null) { videoHref.replace(wrongCourseId, courseId) }
+        if (videoHref !== undefined && videoHref.indexOf("course_id=") === -1) {
+            videoHref += "&course_id=" + courseId;
+            if (isIframe) {videoLink.src = videoHref}
+            else {videoLink.href = videoHref;}
+        }
+    });
+};</script><script type="text/javascript">addCourseIdIfMissing('_85724_1')</script>
+
+
+
+  <script type="text/javascript">page.bundle.addKey('inlineconfirmation.close','Close');page.bundle.addKey('inlineconfirmation.refresh','Refresh');page.bundle.addKey('hidden.link.close.menu','End of menu. Click to return to associated item.');page.bundle.addKey('hidden.link.close.form','End of form. Click to return to associated item.');page.bundle.addKey('lightbox.loading','Loading...');page.bundle.addKey('yt.stopped','Stopped:');page.bundle.addKey('yt.playing','Playing:');page.bundle.addKey('yt.cued','Cued:');page.bundle.addKey('yt.buffering','Buffering:');page.bundle.addKey('yt.paused','Paused:');page.bundle.addKey('yt.ended','Ended:');page.bundle.addKey('yt.play','Play');page.bundle.addKey('yt.pause','Pause');page.bundle.addKey('yt.mute','Mute');page.bundle.addKey('yt.unmute','Unmute');page.bundle.addKey('lightbox.overlay','{0} has been opened as a lightbox overlaying the current page.');page.bundle.addKey('display.playerControls','Player Controls');page.bundle.addKey('display.videoPlayerControls','Video Player Controls');page.bundle.addKey('display.play','Play');page.bundle.addKey('display.stop','Stop');page.bundle.addKey('display.volumeUp','Volume Up');page.bundle.addKey('display.volumeDown','Volume Down');page.bundle.addKey('display.mute','Mute');page.bundle.addKey('display.videoStatus','Video Status');page.bundle.addKey('display.closePlayerControls','Close Player Controls');page.bundle.addKey('display.embeddedVideoPlayer','Embedded Video Player');page.bundle.addKey('display.of','of');page.bundle.addKey('display.view.on.flickr','View Photo on Flickr');page.bundle.addKey('mashups.content.data.msg','We are unable to display the mashup content. This happens if the system detects an invalid URL. Remove the mashup item and try again to resolve this issue.');page.bundle.addKey('contextmenu.frame.title','Menu frame');page.bundle.addKey('frameset.contentframe.title','Content');page.bundle.addKey('common.pair.paren','{0} ({1})');page.bundle.addKey('expandCollapse.collapse.section.nocolon','Collapse');page.bundle.addKey('expandCollapse.expand.section.nocolon','Expand');page.bundle.addKey('test.not.submitted.forced.warning','You recently left the test \'{0}\' without submitting it. It was automatically submitted for you. Contact your instructor for assistance if you did not mean to leave and submit your test.');page.bundle.addKey('survey.not.submitted.forced.warning','You recently left the survey \'{0}\' without submitting it. It was automatically submitted for you. Contact your instructor for assistance if you did not mean to leave and submit your survey.');page.bundle.addKey('test.not.submitted.warning','You recently left the test \'{0}\' without submitting it. Return to the test and click Save and Submit or contact your instructor for assistance.');page.bundle.addKey('survey.not.submitted.warning','You recently left the survey \'{0}\' without submitting it. Return to the survey and click Save and Submit or contact your instructor for assistance.');page.bundle.addKey('takeSaveAnswer','Save Answer');page.bundle.addKey('takeSaveAnswerAgain','Saved');page.bundle.addKey('take.show.test.information','Show');page.bundle.addKey('take.hide.test.information','Hide');page.bundle.addKey('confirm.delete_item','This item will be deleted. Continue?');page.bundle.addKey('confirm.delete_question.regrade','This Question will be deleted and removed from any existing attempts at using it. Attempt grades will be adjusted accordingly. Continue?');page.bundle.addKey('confirm.delete_question.regrade.survey','This Question will be deleted and removed from any existing submission. Continue?');page.bundle.addKey('confirm.remove_question_link.regrade','This Question will be removed and any existing attempt at using it updated. Attempt grades will be adjusted accordingly. Continue?');page.bundle.addKey('confirm.delete_item.regrade','This item will be deleted and removed from any existing attempts at using it. Attempt grades will be adjusted accordingly. Continue?');page.bundle.addKey('confirm.remove_question_link.regrade.survey','This Question will be removed from any existing submission. Continue?');page.bundle.addKey('confirm.delete_item.regrade.survey','This item will be deleted and removed from any existing submission. Continue?');page.bundle.addKey('confirm.delete_items_count','{0} question(s) will be deleted. Continue?');page.bundle.addKey('confirm.delete_items','The selected questions will be deleted. Continue?');page.bundle.addKey('confirm.points_change.regrade_warning','Changing the points possible will trigger a regrading of existing attempts, affecting existing grades. Do you want to continue?');page.bundle.addKey('update.input.value','Error: Specify value');page.bundle.addKey('update.input.valid.value','Error: Specify valid numeric value.');page.bundle.addKey('update.points.value','Specify points value to update.');page.bundle.addKey('update.points.valid.value','Specify points value as a valid numeric value to update.');page.bundle.addKey('update.count.value','Specify question count value to update.');page.bundle.addKey('update.count.valid.value','Specify question count value as a valid numeric value to update.');page.bundle.addKey('pop.up.blocker.enabled','Please disable the pop-up blocker and try again.');page.bundle.addKey('confirm.set_copy_link','The find question mode is not set either to copy or link. Continue?');page.bundle.addKey('cannot.submit.with.no.matching.questions','Cannot submit without at least one matching question.');page.bundle.addKey('test.not.submitted.beforeunload.warning','This test has not been submitted. Press Cancel to return to the test.');page.bundle.addKey('test.not.submitted.forced.beforeunload.warning','This test has not been submitted. Press Cancel to return to the test.');page.bundle.addKey('test.not.submitted.timer.running','The timer will continue to run.');page.bundle.addKey('survey.not.submitted.beforeunload.warning','This survey has not been submitted. Press Cancel to return to the survey.');page.bundle.addKey('survey.not.submitted.forced.beforeunload.warning','This survey has not been submitted. Press Cancel to return to the survey.');page.bundle.addKey('survey.not.submitted.timer.running','The timer will continue to run.');page.bundle.addKey('error.loading.referrers','An error occurred loading the referring tests. Please reload the page and try again.');page.bundle.addKey('qStatus.incomplete','Question Incomplete');page.bundle.addKey('take.save_answer','Save Answer');page.bundle.addKey('take.save_answer.failed','Save Answer (Failed)');page.bundle.addKey('take.save_answer.again','Saved');page.bundle.addKey('qStatus.complete','Question Complete');page.bundle.addKey('warning.taking.too.long','It is taking longer than expected to perform this save.  Click Cancel to wait for it to complete.  Click OK to reenable the save, submit and/or navigation buttons on this page, so that you can try again.');page.bundle.addKey('warning.taking.too.long.nobacktracking','It is taking longer than expected to perform this save.  Click Cancel to wait for it to complete.  Click OK to re-enable the save, submit and/or navigation buttons on this page, so you can try again.  N.B. As backtracking is disabled, if you choose OK and change your answer before continuing, it is not guaranteed to take your new answer.');page.bundle.addKey('take.dupe_save','Currently saving your answer.');page.bundle.addKey('take.save_continue','Save All Answers');page.bundle.addKey('take.save_continue.saving','Saving All Answers');page.bundle.addKey('take.dupe_warn','The requested action is being processed. Wait for confirmation.');page.bundle.addKey('question.file_upload.unsaved_warning','You recently left the test \'{0}\' without saving {1} file upload answer(s). Please return to the test, upload your file(s) and save the question(s) directly.');page.bundle.addKey('take.saving_answer','Saving Answer');page.bundle.addKey('confirm.saved_partial','Partial Answer saved (Question has not yet been completed)');page.bundle.addKey('confirm.saved_empty','Question is unanswered.');page.bundle.addKey('confirm.error','An error has occurred.  Please try re-saving your answer.');page.bundle.addKey('confirm.error_all','An error occurred saving all questions.  Please save-all again or save questions individually (Note that questions with a Saved function have already been saved)');page.bundle.addKey('confirm.saved_all','All answered questions saved.');page.bundle.addKey('add.question.before.title','Add Question Above {0}');page.bundle.addKey('add.question.after.title','Add Question Below {0}');page.bundle.addKey('continuous.save.failures','We\'re unable to save your answers.  Please check your network connection before continuing with the test.  If this problem persists, contact your system administrator.');page.bundle.addKey('set.cannot.delete.in_use','Students have already submitted tests using these questions. In order to remove them for re-grading, you must remove the whole question set.');page.bundle.addKey('coursemenu.show','Show Site Menu');page.bundle.addKey('coursemenu.hide','Hide Site Menu');page.bundle.addKey('dynamictree.expand','Expand');page.bundle.addKey('dynamictree.collapse','Collapse');page.bundle.addKey('dynamictree.expand.folder','Expand {0} tree folder');page.bundle.addKey('dynamictree.collapse.folder','Collapse {0} tree folder');page.bundle.addKey('dragdrop.accessible.error.chooseOption','Select an item first.');page.bundle.addKey('dragdrop.accessible.empty','No items available to reposition.');page.bundle.addKey('dragdrop.accessible.complete','Items have been reordered.');page.bundle.addKey('dragdrop.accessible.complete.nochange','No ordering changes made.');page.bundle.addKey('closeStr','Close');page.bundle.addKey('moreOptionsStr','Click to see options');page.bundle.addKey('hiddenStr','This link is hidden from students');page.bundle.addKey('emptyStr','This link has no content');page.bundle.addKey('entryPointChangeConfirmStr','The entry point will be changed to the next available Content');page.bundle.addKey('subheaderColonStr','Subheader {0}');page.bundle.addKey('confirmQuickEnrollStr','You will be given the role: {0}. Proceed?');page.bundle.addKey('enterSearchKeyStr','Enter Search Criteria.');page.bundle.addKey('courseWelcomePageLbTitle','Quick Setup Guide');page.bundle.addKey('expandCollapse.expand.section.param','Expand {0}');page.bundle.addKey('expandCollapse.collapse.section.param','Collapse {0}');page.bundle.addKey('optin.decline.confirm.existing','This will permanently remove your Blackboard profile. Continue?');page.bundle.addKey('optin.processing.error','An error occurred processing your request.');page.bundle.addKey('tool.activity.description','activity updates');page.bundle.addKey('accessDeniedMsg','Access Denied');page.bundle.addKey('breadcrumbs.expand','Click to expand the breadcrumbs');</script>
+  <script type="text/javascript">
+    
+      Event.observe (window, 'load', function() {
+        displayMathImgInline( document.getElementById('bb-take-assessment').getElementsByTagName('img') );
+      });
+      
+      <!--
+      function take_onLoad()
+      {
+    	  window.onunload = take_onUnload;
+        assessment.takePageId = 1546674453638; 
+        assessment.isOneByOne = false;
+        assessment.backtrackProhibited = false;
+        assessment.currentTestName = 'Topic 2 - Review';
+        window.onbeforeunload = take_onBeforeUnload;
+        window.document.assessmentInternalNavigation = false; // TODO: Rename to assessment.internalNavigation. Used when the user is navigating between questions in 1by1 this is set.
+        window.setTimeout(assessment.registerVTBEChange,1);
+        // Initial pass to update the status icons on the page and the button text
+        assessment.questionBeingSaved = -1;
+        updateQuestionStatus();
+        assessment.startAutoSave(10);
+        assessment.isSurvey = false;
+        
+        $('topbar').show();        
+      }
+      function take_onBeforeUnload(e)
+      {
+        e = e || window.event;
+        var msg = assessment.warnBeforeLeavingIfUnsavedOrUnsubmitted(assessment.isOneByOne, false, false);
+        if (typeof(msg) != 'undefined')
+        {
+          if (typeof(e) != 'undefined')
+          {
+            e.returnValue = msg;
+          }
+          return msg;
+        }
+        return;
+      }
+      function take_onUnload()
+      {
+        assessment.stopAutoSave();
+        assessment.warnOnLeaveIfUnsavedOrUnsubmitted(assessment.isOneByOne, false, false, false);
+        
+      }
+      
+      // -->
+    </script>
+  
+  <script type="text/javascript">
+    FastInit.addOnLoad( function()
+    {
+      takeAssessment.initiateTestInformation('_925474_1_7827522_1');
+    });
+  </script>
+
+  <script type="text/javascript">
+  function jumpTo(questionNumber)
+  {
+    if (!window.document.assessmentInternalNavigation)
+    {
+      assessment.prepareForSubmit(false);
+      window.document.assessmentInternalNavigation = true;
+	  internalNavigationSafetyNet.delay(assessment.safetyNetDelay);
+	  assessment.savingRightNow = true;
+	  document.forms[ 'saveAttemptForm' ].current_question.value = questionNumber;
+	  assessment.submitAttemptForm();
+	}
+    // Do nothing if we're navigating already.  The user may be a bit confused but they will eventually get their next question 
+    return false;
+  }
+</script>
+
+  <script type="text/javascript">
+
+    var submitQuestion   = "Confirm question submission.";
+    var submitAssessment = "Test submission confirmation: Click Cancel to return to the test. Click OK to submit assessment.";
+
+    var nextQuestion = false;
+    window.document.assessmentSubmitted = false; // Used to avoid double-submitting the assessment as a whole.
+    //must be settable from the popup confirm save page
+    window.document.assessmentSaved = false; // Used to avoid double-submitting a single question's answer TODO: I think we can eliminate this flag and allow the double-submit based on all the other flags we have.  TODO: Change to assessment.assessmentSaved
+
+    function confirmSubmit(msg)
+    {
+      if (assessment.submittingRightNow)
+   	  {
+    	return false;
+ 	  }
+
+      /* Note - the submittingRightNow flag is explicitly separate from the savingRightNow flag so that we can handle the
+       * user hitting 'saveandsubmit' both while an asynchronous save is happening and while one is pending.  The savingRightNow
+       * flag saves us from a conflict with an async save and the submittingRightNow flag stops new async saves from occurring.
+       * Without this flag, if you answer your questions, hit saveandsubmit and then wait there for a while (10-30 seconds:
+       * long enough so that a background async save could have been kicked off) and then hit 'ok' - at that point in time both
+       * the background and foreground processes will submit concurrently.  By blocking the async
+       * saves while we're waiting for the user to click 'ok' we avoid this concurrent submit.
+       */
+      assessment.submittingRightNow = true;
+      assessment.savingRightNow = true;
+      assessment.backtrackProhibited = false;
+      try
+      {
+        assessment.prepareForSubmit(false);
+        var validForm = validateForm();
+	      // only show the "are you sure?" message if the validation succeeded
+	      if ( validForm && (assessment.userReallyWantsToSubmit || window.confirm(msg) ))
+	      {
+	         if ( assessment.checkAlreadySubmitted(page.bundle.getString('take.dupe_warn')))
+	         {
+	         	
+	         	 window.top.document.title = "Blackboard Learn";
+	             document.forms.saveAttemptForm.method.value = 'notajax'; // Make sure we don't go through the ajax-save logic on the server - aside from that we don't care about the method value
+	          	 return true; // The caller will submit the form after this.
+	       	 }
+	      }
+      }
+      catch (err)
+      {
+    	  // Ignore the error - just want to make sure we fall through the code below
+      }
+
+      // If we get here then either the form isn't valid to submit or the user chose not to submit
+      assessment.submittingRightNow = false;
+      assessment.savingRightNow = false;
+      return false;
+    }
+
+    function navigate(direction) {
+      if (!window.document.assessmentInternalNavigation)
+      {
+        // Set textarea value to VTBE contents:
+        window.document.assessmentInternalNavigation = true;
+        try
+        {
+            assessment.prepareForSubmit(false);
+
+	        var validForm = true;
+	        
+	        if ( validForm)
+	        {
+	          assessment.savingRightNow = true;
+	          internalNavigationSafetyNet.delay(assessment.safetyNetDelay);
+	          document.forms.saveAttemptForm.method.value = 'notajax'; // Make sure we don't go through the ajax-save logic on the server - aside from that we don't care about the method value
+              document.forms.saveAttemptForm.navigationTarget.value=direction;
+	          try
+	          {
+	            assessment.submitAttemptForm();
+	          }
+	          catch (err)
+	          {
+	            // so we can clear this in error cases:
+	          }
+              document.forms.saveAttemptForm.navigationTarget.value='';
+	        }
+	        else
+	        {
+	          window.document.assessmentInternalNavigation = false;
+	        }
+        }
+        catch (err)
+        {
+        	window.document.assessmentInternalNavigation = false;
+        }
+      }
+      return false;
+    }
+
+
+  if (window.addEventListener)
+    window.addEventListener("load", staticbar, false);
+  else if (window.attachEvent)
+   window.attachEvent("onload", staticbar);
+  else if (document.getElementById)
+    window.onload=staticbar;
+  </script>
+  <script type="text/javascript">
+  FastInit.addOnLoad( function()
+  {
+    getDisplayPreference('instructionsText');
+    getDisplayPreference('statusBlock');
+  }
+  );
+  </script>
+  
+  <script type="text/javascript">
+formCheckList.addElement(new Check_Answer({ref_label:"8",name:"tf-ans-_7827531_1"}));
+</script>
+
+  <script type="text/javascript">
+  FastInit.addOnLoad( function()
+  {
+    assessment.clearQuestionModifiedStatuses();
+    assessment.addQuestionToMonitor('_7827524_1','1',false);assessment.addQuestionToMonitor('_7827525_1','2',false);assessment.addQuestionToMonitor('_7827526_1','3',false);assessment.addQuestionToMonitor('_7827527_1','4',false);assessment.addQuestionToMonitor('_7827528_1','5',false);assessment.addQuestionToMonitor('_7827529_1','6',false);assessment.addQuestionToMonitor('_7827530_1','7',false);assessment.addQuestionToMonitor('_7827531_1','8',false);;
+  }
+  );
+</script>
+
+  <script type="text/javascript">
+  FastInit.addOnLoad( function()
+  {
+    BrowserSpecific.disableEnterKeyInTextBoxes(document);
+  });
+</script>
+
+  <script type="text/javascript">
+   var course_id = "_85724_1";
+   var courseTitle = "18/19 Databases 2 (NAMI) (CSY2038-NAM09)";
+   var confirmDeleteMenuItemMsg = "Are you sure you want to delete this item?";
+   var confirmQuickUnenrollMsg = "Any user data created while quick-enrolled in this site will be deleted. Proceed?";
+   var confirmQuickEnrollMsg = "You will be given the role: Instructor. Proceed?";
+   var inNewWindow = false;
+   var theCourseMenu;
+ </script>
+ 
+  <script type="text/javascript">globalNavigation.init(); Event.observe(window, 'resize', globalNavigation.onResize);</script>
+  <script type="text/javascript">
+    page.bundle.addKey('globalnav.menu.expand','Expand\x20Global\x20Nav');
+    page.bundle.addKey('globalnav.menu.collapse','Collapse\x20Global\x20Nav');
+  </script>
+  
+  <script type="text/javascript">
+    page.bundle.addKey('quick_links.link.title','Navigate\x20to\x20element\x20\x7B1\x7D\x20of\x20type\x20\x7B2\x7D\x20in\x20\x7B0\x7D\x20frame');
+    page.bundle.addKey('quick_links.lightbox_title','Quick\x20Links');
+    page.bundle.addKey('quick_links.link_title','Open\x20Quick\x20Links');
+    page.bundle.addKey('quick_links.hotkey.shift','Shift');
+    page.bundle.addKey('quick_links.hotkey.control','Ctrl');
+    page.bundle.addKey('quick_links.hotkey.alt','Alt');
+    page.bundle.addKey('quick_links.hotkey.combination_divider','\x2B');
+  </script>
+  
+  <script type="text/javascript">quickLinks.initialize( [ '' ] );</script>
+  <script type="text/javascript">
+  		            globalNavMenu.init( true );
+  		          </script>
+  		        
+  <script type="text/javascript"> social.Profile.MY_PROFILE_TOOL_ID='BB-CORE_____myProfile'; social.Profile.MY_PROFILE_TOOL_URI='/webapps/bb-social-learning-bb_bb60/execute/mybb?cmd=display&toolId=BB-CORE_____myProfile&location='; </script>
+ 
+   <script type="text/javascript">
+   FastInit.addOnLoad( function()
+   {
+            if ( window.DWREngine )
+       {
+        try {DWREngine.beginBatch();} catch(ignore) {}
+       } 
+                page.decoratePageBanner();
+                                                             function dataCollRendererInit() {var dccform=$$('div.stepcontent input:visible[type!=hidden], div.stepcontent textarea:visible, div.stepcontent select:visible, div.stepcontent a:visible, div.stepcontent button:visible');if(dccform && dccform.length > 0){dccform[0].focus();}};
+                                                             setTimeout(function(){dataCollRendererInit();},100); 
+                                                             page.util.initPinBottomSubmitStep();
+                                                             page.util.initPinBottomSubmitStep();
+                                                             page.ContextMenu.hideMenuDiv('a4e065e509f94fe6adfce8208e2d51cd');
+                                                             new page.PageHelpToggler(true, 'Help is On: Click to hide page help.', 'Help is Off: Click to show page help.', false );
+                                                             breadcrumbs.rightMostNavItem = 'null';
+                                                             breadcrumbs.rightMostParentURL = '/webapps/blackboard/content/listContent.jsp?course_id=_85724_1&content_id=_4502027_1&mode=reset';
+                                                             new page.PageMenuToggler(true,'courseMenuToggle_85724_1', true);
+                                                             courseMenu.nonceKey = 'blackboard.platform.security.NonceUtil.nonce.ajax';
+                                                             courseMenu.nonceValue = '4074c43b-5a7c-4248-95b7-98d238b9d9b6';
+                                                             new page.PaletteController('courseMenuPalette', 'courseMenu_link', false, false);
+                                                             theCourseMenu = new courseMenu.CourseMenu('/webapps/blackboard/execute/doCourseMenuAction', '/webapps/blackboard/execute/getCourseMenuContextMenu');
+                                                             welcomeOverlay.initOverlay();
+                                                             CloudSession.initSessionHeartbeat('/webapps/cloud-profiles/session/heartbeat');
+                                                             tool_service.init ('300000', 'Suppress-Session-Timestamp-Update' );
+                                                             if (typeof(initEditors) == 'function') { initEditors(); }; 
+                                                             if (window['org'] && window['org']['owasp']) { org.owasp.esapi.ESAPI.initialize(); }; 
+                                                             quickLinks.createHelper();
+                                                                    window.profileAccess = new ProfileAccess( '/webapps/cloud-profiles/', 'https://api.cloudbb.blackboard.com/v1/sessions/redirectWithToken', 'https://ui.cloudbb.blackboard.com/profiles/5b4b2fece4b027a2ed793b7e?sid=17968dbc-4da9-4c22-b6ee-eb5f00241ba3', true, 'blackboard.platform.security.NonceUtil.nonce.ajax', '4074c43b-5a7c-4248-95b7-98d238b9d9b6' );
+                                if ( window.DWREngine )
+       {
+         try {DWREngine.endBatch();} catch(ignore) {}
+       }
+                          BrowserSpecific.registerListeners();
+                take_onLoad();
+               });
+   </script>
+       <script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-30306201-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script> 
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"e99ceaa32b","agent":"","beacon":"bam.nr-data.net","applicationTime":268,"applicationID":"9645952","transactionName":"YlUEYhdYCkUAWhdfX1sfNUIXTBBFIFoXX19bHwRaBFoPVA5YEVIeQlUEVxVJFxgDVQJVW1dfB0QBFwdZFEsQU11QXhMYFk0WQxVKTXVfQEIVUyhcCkMlUBBGXFRJJ1URUAtY","queueTime":0}</script>
+
+
+
+
+                 <script type="text/javascript" src="./Blackboard Learn_files/cdn.js.download"></script>
+           </body></html>
